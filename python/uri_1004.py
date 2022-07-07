@@ -1,6 +1,4 @@
 n1 = int(input())
 n2 = int(input())
 
-prod = n1 * n2
-
-print("PROD = %d" %prod)
+print("PROD = %d" %(n1 * n2))

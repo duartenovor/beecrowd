@@ -1,8 +1,8 @@
-user_in = []
+values = []
 
 for i in range(4):
-	user_in.append(int(input()))
+	values.append(int(input()))
 
-dif = user_in[0] * user_in[1] - user_in[2] * user_in[3]
+dif = values[0] * values[1] - values[2] * values[3]
 
 print("DIFERENCA = %d" %dif)

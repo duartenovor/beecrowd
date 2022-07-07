@@ -1,13 +1,13 @@
 def greatest(a, b):
 	return (a + b + abs(a - b)) // 2
 
-user_in = input().split()
+values = input().split()
 
-for i in range(len(user_in)):
-	user_in[i] = float(user_in[i])
+for i in range(len(values)):
+	values[i] = float(values[i])
 
-greatest_num = user_in[0]
-for i in range(len(user_in) - 1):
-	greatest_num = greatest(greatest_num, user_in[i+1])
+greatest_num = values[0]
+for i in range(len(values) - 1):
+	greatest_num = greatest(greatest_num, values[i+1])
 
 print("%d eh o maior" %greatest_num)
