@@ -3,4 +3,4 @@ grade2 = float(input())
 
 mean = (grade1 * 3.5 + grade2 * 7.5) / 11
 
-print("MEDIA = %.5f" %mean)
+print("MEDIA = %.5f" % mean)

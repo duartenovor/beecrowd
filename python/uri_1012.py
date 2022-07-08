@@ -9,8 +9,8 @@ trap = (points['a'] + points['b']) / 2 * points['c']
 square = points['b'] * points['b']
 rectangle = points['a'] * points['b']
 
-print("TRIANGULO: %.3f" %triangle)
-print("CIRCULO: %.3f" %circle)
-print("TRAPEZIO: %.3f" %trap)
-print("QUADRADO: %.3f" %square)
-print("RETANGULO: %.3f" %rectangle)
+print("TRIANGULO: %.3f" % triangle)
+print("CIRCULO: %.3f" % circle)
+print("TRAPEZIO: %.3f" % trap)
+print("QUADRADO: %.3f" % square)
+print("RETANGULO: %.3f" % rectangle)
